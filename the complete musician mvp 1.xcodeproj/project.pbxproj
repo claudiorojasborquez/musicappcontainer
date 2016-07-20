@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		64150F201D3DC8BC0096F742 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64150F1F1D3DC8BC0096F742 /* main.m */; };
 		64150F231D3DC8BC0096F742 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64150F221D3DC8BC0096F742 /* AppDelegate.m */; };
-		64150F261D3DC8BC0096F742 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64150F251D3DC8BC0096F742 /* ViewController.m */; };
 		64150F291D3DC8BC0096F742 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64150F271D3DC8BC0096F742 /* Main.storyboard */; };
 		64150F2C1D3DC8BC0096F742 /* the_complete_musician_mvp_1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64150F2A1D3DC8BC0096F742 /* the_complete_musician_mvp_1.xcdatamodeld */; };
 		64150F2E1D3DC8BC0096F742 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64150F2D1D3DC8BC0096F742 /* Assets.xcassets */; };
 		64150F311D3DC8BC0096F742 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64150F2F1D3DC8BC0096F742 /* LaunchScreen.storyboard */; };
 		64150F3C1D3DC8BC0096F742 /* the_complete_musician_mvp_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64150F3B1D3DC8BC0096F742 /* the_complete_musician_mvp_1Tests.m */; };
 		64150F471D3DC8BD0096F742 /* the_complete_musician_mvp_1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64150F461D3DC8BD0096F742 /* the_complete_musician_mvp_1UITests.m */; };
+		64150F561D3DC8D40096F742 /* InitialTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64150F551D3DC8D40096F742 /* InitialTableViewController.m */; };
+		64150F591D3DC8DD0096F742 /* SecondaryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64150F581D3DC8DC0096F742 /* SecondaryTableViewController.m */; };
+		64150F5C1D3DC8E60096F742 /* TertiaryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64150F5B1D3DC8E60096F742 /* TertiaryTableViewController.m */; };
+		64150F5F1D3DC8F90096F742 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64150F5E1D3DC8F90096F742 /* DetailViewController.m */; };
+		64150F611D3DCB720096F742 /* HelperProjectFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 64150F601D3DCB720096F742 /* HelperProjectFile.m */; };
+		64150F651D3DD61C0096F742 /* Text Examples in Resources */ = {isa = PBXBuildFile; fileRef = 64150F631D3DD61C0096F742 /* Text Examples */; };
+		64150F661D3DD61C0096F742 /* Text Exercises in Resources */ = {isa = PBXBuildFile; fileRef = 64150F641D3DD61C0096F742 /* Text Exercises */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +46,6 @@
 		64150F1F1D3DC8BC0096F742 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		64150F211D3DC8BC0096F742 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64150F221D3DC8BC0096F742 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		64150F241D3DC8BC0096F742 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		64150F251D3DC8BC0096F742 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		64150F281D3DC8BC0096F742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64150F2B1D3DC8BC0096F742 /* the_complete_musician_mvp_1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = the_complete_musician_mvp_1.xcdatamodel; sourceTree = "<group>"; };
 		64150F2D1D3DC8BC0096F742 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +57,18 @@
 		64150F421D3DC8BD0096F742 /* the complete musician mvp 1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "the complete musician mvp 1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64150F461D3DC8BD0096F742 /* the_complete_musician_mvp_1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = the_complete_musician_mvp_1UITests.m; sourceTree = "<group>"; };
 		64150F481D3DC8BD0096F742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64150F541D3DC8D40096F742 /* InitialTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialTableViewController.h; sourceTree = "<group>"; };
+		64150F551D3DC8D40096F742 /* InitialTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialTableViewController.m; sourceTree = "<group>"; };
+		64150F571D3DC8DC0096F742 /* SecondaryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondaryTableViewController.h; sourceTree = "<group>"; };
+		64150F581D3DC8DC0096F742 /* SecondaryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondaryTableViewController.m; sourceTree = "<group>"; };
+		64150F5A1D3DC8E60096F742 /* TertiaryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TertiaryTableViewController.h; sourceTree = "<group>"; };
+		64150F5B1D3DC8E60096F742 /* TertiaryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TertiaryTableViewController.m; sourceTree = "<group>"; };
+		64150F5D1D3DC8F90096F742 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		64150F5E1D3DC8F90096F742 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		64150F601D3DCB720096F742 /* HelperProjectFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelperProjectFile.m; sourceTree = "<group>"; };
+		64150F621D3DCB9E0096F742 /* HelperProjectFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelperProjectFile.h; sourceTree = "<group>"; };
+		64150F631D3DD61C0096F742 /* Text Examples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Text Examples"; sourceTree = "<group>"; };
+		64150F641D3DD61C0096F742 /* Text Exercises */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Text Exercises"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +99,16 @@
 		64150F121D3DC8BC0096F742 = {
 			isa = PBXGroup;
 			children = (
+				64150F541D3DC8D40096F742 /* InitialTableViewController.h */,
+				64150F551D3DC8D40096F742 /* InitialTableViewController.m */,
+				64150F571D3DC8DC0096F742 /* SecondaryTableViewController.h */,
+				64150F581D3DC8DC0096F742 /* SecondaryTableViewController.m */,
+				64150F601D3DCB720096F742 /* HelperProjectFile.m */,
+				64150F621D3DCB9E0096F742 /* HelperProjectFile.h */,
+				64150F5A1D3DC8E60096F742 /* TertiaryTableViewController.h */,
+				64150F5B1D3DC8E60096F742 /* TertiaryTableViewController.m */,
+				64150F5D1D3DC8F90096F742 /* DetailViewController.h */,
+				64150F5E1D3DC8F90096F742 /* DetailViewController.m */,
 				64150F1D1D3DC8BC0096F742 /* the complete musician mvp 1 */,
 				64150F3A1D3DC8BC0096F742 /* the complete musician mvp 1Tests */,
 				64150F451D3DC8BD0096F742 /* the complete musician mvp 1UITests */,
@@ -103,10 +129,10 @@
 		64150F1D1D3DC8BC0096F742 /* the complete musician mvp 1 */ = {
 			isa = PBXGroup;
 			children = (
+				64150F631D3DD61C0096F742 /* Text Examples */,
+				64150F641D3DD61C0096F742 /* Text Exercises */,
 				64150F211D3DC8BC0096F742 /* AppDelegate.h */,
 				64150F221D3DC8BC0096F742 /* AppDelegate.m */,
-				64150F241D3DC8BC0096F742 /* ViewController.h */,
-				64150F251D3DC8BC0096F742 /* ViewController.m */,
 				64150F271D3DC8BC0096F742 /* Main.storyboard */,
 				64150F2D1D3DC8BC0096F742 /* Assets.xcassets */,
 				64150F2F1D3DC8BC0096F742 /* LaunchScreen.storyboard */,
@@ -210,6 +236,7 @@
 				TargetAttributes = {
 					64150F1A1D3DC8BC0096F742 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = GF95W9ET84;
 					};
 					64150F361D3DC8BC0096F742 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -247,7 +274,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				64150F311D3DC8BC0096F742 /* LaunchScreen.storyboard in Resources */,
+				64150F651D3DD61C0096F742 /* Text Examples in Resources */,
 				64150F2E1D3DC8BC0096F742 /* Assets.xcassets in Resources */,
+				64150F661D3DD61C0096F742 /* Text Exercises in Resources */,
 				64150F291D3DC8BC0096F742 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,10 +302,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64150F261D3DC8BC0096F742 /* ViewController.m in Sources */,
+				64150F561D3DC8D40096F742 /* InitialTableViewController.m in Sources */,
 				64150F231D3DC8BC0096F742 /* AppDelegate.m in Sources */,
+				64150F591D3DC8DD0096F742 /* SecondaryTableViewController.m in Sources */,
 				64150F201D3DC8BC0096F742 /* main.m in Sources */,
 				64150F2C1D3DC8BC0096F742 /* the_complete_musician_mvp_1.xcdatamodeld in Sources */,
+				64150F611D3DCB720096F742 /* HelperProjectFile.m in Sources */,
+				64150F5C1D3DC8E60096F742 /* TertiaryTableViewController.m in Sources */,
+				64150F5F1D3DC8F90096F742 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,10 +448,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "the complete musician mvp 1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Claudio.the-complete-musician-mvp-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -426,10 +462,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "the complete musician mvp 1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Claudio.the-complete-musician-mvp-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -500,6 +539,7 @@
 				64150F4D1D3DC8BD0096F742 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64150F4E1D3DC8BD0096F742 /* Build configuration list for PBXNativeTarget "the complete musician mvp 1Tests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +548,7 @@
 				64150F501D3DC8BD0096F742 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64150F511D3DC8BD0096F742 /* Build configuration list for PBXNativeTarget "the complete musician mvp 1UITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +557,7 @@
 				64150F531D3DC8BD0096F742 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
